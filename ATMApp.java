@@ -37,10 +37,12 @@ public class ATMApp {
         }
     }
 
+    // Method to check balance
     private static void checkBalance(Scanner scanner) {
         System.out.println("Your balance is $" + balance);
     }
 
+    // Method to withdraw money
     private static void withdrawMoney(Scanner scanner) {
         System.out.print("Enter the amount you would like to withdraw: ");
         if(scanner.hasNextInt()) {
@@ -58,6 +60,7 @@ public class ATMApp {
         }
     }
 
+    // Method to deposit money
     private static void depositMoney(Scanner scanner) {
         System.out.print("Enter the amount you would like to deposit: ");
         if(scanner.hasNextInt()) {
@@ -71,5 +74,3 @@ public class ATMApp {
         }
     }
 }
-
-
