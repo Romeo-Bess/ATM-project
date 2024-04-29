@@ -1,3 +1,9 @@
+/*
+ * Title: ATM project
+ * Description: The ATM project is a Java-based application allowing users to check balances, withdraw and deposit funds through a command-line interface.
+ * Author: Romeo Bessenaar
+ * Date: 2021/05/12
+ */
 import java.util.Scanner;
 
 public class ATMApp {
